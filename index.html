@@ -1,0 +1,75 @@
+<html lang="en-Us">
+<head>
+
+	<meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Login</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+	
+<script>
+
+
+window.addEventListener("load", function(){
+
+
+window.cookieconsent.initialise({
+
+	"palette": {
+		"popup": {
+		"background": "#237afc"
+		},
+		"button": {
+		"background": "#fff",
+		"text": "#237afc"
+		}
+	}
+  })
+ });
+</script>
+</head>
+
+<body>
+
+	<div id="login">
+	
+	<img src="img/logo.png" alt="$Pi" height="176" width="274">
+
+		<h1><strong>Welcome!</strong> Please log in.</h1>
+
+		<form action="php/login.php" method="POST">
+
+			<fieldset>
+
+				<p><input type = "email" name = "mail" placeholder = "E-Mail" required></p>
+
+				<p><input type = "password" name = "pwd" placeholder = "Password" required></p>
+
+				<p><a href = "pages/recover.html">Forgot password?</a></p>
+
+				<p><input type = "submit" value = "Login"></p>
+
+			</fieldset>
+
+		</form>
+
+		<div style = "margin-top:3%"><a href = "pages/register.html">Don't have an account? Register here!</a></div>
+		
+			
+      </div>
+      
+<h3>Source code avaible at: <a href = "pages/recover.html">GitHub</a>|<a href = "pages/recover.html">GitLab</a></h3>
+	
+
+
+
+	
+</body>
+</html>
