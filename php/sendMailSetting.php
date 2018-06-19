@@ -1,0 +1,10 @@
+<?php
+$subject = "Change to your DollarPI Account";
+
+
+$headers = 'From:DollarPI' . "\r\n";
+$headers .= 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+mail($mail,$subject,$message,$headers);
+?>
