@@ -96,7 +96,10 @@
 			echo "<td>" . $row['name'] . "</td>";
 			echo "<td>" . $row['surname'] . "</td>";
 			echo "<td>" . $row['expireDate'] . "</td>";
-			echo "<td>" . $row['total'] . "$</td>";
+			
+			if($row['total'] < 0) echo "<td><font color='red'> " . $row['total'] . "$</td></font>";
+			else echo "<td>" . $row['total'] . "$</td>";
+			
 			echo "</tr>";
 		}
 	}
