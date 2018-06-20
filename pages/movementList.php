@@ -52,9 +52,10 @@
 	<thead>
 	<tr>
 		<td><i class="far fa-credit-card"></i> Card Number</td>
-		<td><i class="far fa-user"></i> Transaction</td>
-		<td><i class="far fa-user"></i> Date</td>
-		<td><i class="far fa-calendar-alt"></i> Note</td>
+		<td><i class="fas fa-dollar-sign"></i> Transaction</td>
+		<td><i class="far fa-calendar-alt"></i> Date</td>
+		<td><i class="fas fa-sticky-note"></i> Note</td>
+		
 	</tr>	
 	</thead>
 	
