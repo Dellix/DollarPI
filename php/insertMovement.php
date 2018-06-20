@@ -18,7 +18,7 @@ $card = $_SESSION['card'];
 			if($type==0) $src = $mysqli->query("UPDATE cards SET total = total - '$amount' WHERE number = '$card'");
 			
 			
-			header("Location: ../pages/movementList.php");
+			header("Location: ../pages/cardManager.php");
             }
         
         else{
