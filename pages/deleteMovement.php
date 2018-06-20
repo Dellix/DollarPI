@@ -64,8 +64,8 @@
 			echo "<td>" . $cardNumber . "</td>";
 			
 			
-			if($row['type']==1) echo "<td> + " . $row['amount'] . "</td>";
-			if($row['type']==0) echo "<td> - " . $row['amount'] . "</td>";
+			if($row['type']==1) echo "<td> + " . $row['amount'] . "$</td>";
+			if($row['type']==0) echo "<td> - " . $row['amount'] . "$</td>";
 			
 			
 			echo "<td>" . $row['date'] . "</td>";
