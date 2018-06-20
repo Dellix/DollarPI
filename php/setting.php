@@ -11,7 +11,7 @@ if($_POST['set']==1){
 		if ($src===TRUE) {
 			
 			$mail = $newMail;
-			$message = "The E-Mail of your DollarPI was changed.";
+			$message = "The E-Mail of your DollarPI has been changed.";
 			
 			include('sendMailSetting.php');
 			
@@ -37,7 +37,7 @@ if($_POST['set']==2){
 	$row = $src->fetch_assoc();
 	
 	$mail = $row['mail'];
-	$message = "The Password of your DollarPI was changed.";
+	$message = "The Password of your DollarPI has been changed.";
 	
 	$src = $mysqli->query("UPDATE users SET pwd = '$newPwd' WHERE userID = '$user'");
 		if ($src===TRUE) {
