@@ -17,7 +17,8 @@ function checkPwd(){
 	
 	}
 
-/*function changePwdFieldBlur(str,field){
+/*
+function changePwdFieldBlur(str,field){
 	
 	if(document.getElementById(field).value == ''){
 		document.getElementById(field).type = 'text';
@@ -34,7 +35,7 @@ function changePwdFieldFocus(str,field){
 	
 function isEmptyRegister(){
 	
-	var a=document.forms["Register"]["name"].value;
+    var a=document.forms["Register"]["name"].value;
     var b=document.forms["Register"]["surname"].value;
     var c=document.forms["Register"]["mail"].value;
     var d=document.forms["Register"]["pwdField1"].value;
@@ -47,4 +48,5 @@ function isEmptyRegister(){
         }
 	
 	
-	}*/
+	}
+*/
